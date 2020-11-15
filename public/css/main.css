@@ -1,0 +1,14 @@
+.card {
+    background: rgba(47, 46, 50, 0.3);
+}
+
+option {
+    color: black;
+}
+/*.form-control {*/
+    /*background: rgba(75, 75, 75, 0.22);*/
+/*}*/
+
+/*.form-control:hover, .form-control:focus, .form-control:active, .form-control:target {*/
+    /*background: rgba(131, 131, 131, 0.6);*/
+/*}*/

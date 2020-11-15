@@ -1,0 +1,134 @@
+.list-title {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.list-more {
+    text-align: end;
+    height: 100%;
+    margin: auto;
+
+}   
+
+.list-more * {
+    background: transparent;
+    color: #c2c2c2;
+    border: 0;
+    padding: 0 0.5%;
+}
+
+.stat-board *, .stat-card * {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #afafaf9a;
+    font-weight: lighter;
+}
+
+.list-more *:hover {
+    color: #ffffff;
+    text-shadow: 0px 0px 10px white;
+}
+
+.track-list {
+    list-style-type: none;
+}
+
+.track-card:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #949494;
+}
+
+.track-card {
+    position: relative;
+    /* box-shadow:0px 0px 50px #313131;  */
+    width: 16%;
+    block-size: 10%;
+    margin: 7px 0;
+}
+
+.track-card .info {
+    background-color: #112b27;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 10px;
+    margin: 0;
+
+    /* font-size: 0.9rem; */
+}
+
+.track-card .info .title * {
+    margin: 0;
+    font-weight: bolder;
+    padding: 0;
+    font-size: 16px;
+    color: #ffffff;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.track-card .info .title:hover {
+    text-decoration: none;
+    font-size: 16px;
+    color: #09daff;
+    list-style: none;
+    text-shadow: 1px 1px 2px black, 0 0 5px darkblue;
+}
+
+
+.track-card .info .artist * {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #afafaf9a;
+    font-weight: lighter;
+
+}
+
+.track-card .info .artist:hover {
+    text-decoration: none;
+}
+
+
+
+.track-card .info .artist p:hover {
+
+    color: #ffffff;
+    list-style-type: none;
+}
+
+
+.artwork {
+    width: 100%;
+    display: block;
+}
+
+
+.artist span * {
+    margin: auto;
+    display: block;
+}
+
+.artwork span {
+    padding-bottom: 100%;
+    display: block;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    background-position: center;
+}
+
+/* Songs Specifics */
+
+.letter-header {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    background: linear-gradient(to left bottom, #34363b, #274241, #174444, #16575f);
+}
+
+

@@ -1,0 +1,43 @@
+/*default is hide music player*/
+#aplayer{
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    box-shadow: 0 -2px 2px #dadada;
+    background-color: #fff;
+    transition: all ease 0.5s;
+}
+#aplayer.showPlayer{
+    bottom: 0;
+}
+
+
+/*MUSIC PLAYER CUSTOMIZING STYLE*/
+span{
+    color: #000 !important;
+    font-size: 16px;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded{
+    background: #e0e0e0;
+    height: 4px;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played{
+    height: 4px;
+    background-color: #2196F3 !important;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb{
+    background-color: #2196F3 !important;
+}
+
+.aplayer .aplayer-icon{
+    width: 20px;
+    height: 20px;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon path {
+    fill: #000;
+}
+.aplayer .aplayer-info .aplayer-music{
+    margin-bottom: 5px;
+}

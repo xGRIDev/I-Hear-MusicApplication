@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/bc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Fredoka One", cursive;
+}
+.login {
+    position: fixed;
+    top: 57%;
+    left: 45%;
+    transform: translate(-30%, -50%);
+    background: rgb(29 29 29 / 50%);
+    padding: 50px;
+    width: 400px;
+    box-shadow: 0px 0px 30px 7px black;
+    border-radius: 15px;
+}
+.avatar {
+    font-size: 30px;
+    background: #e59866;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50%;
+}
+.login h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    padding-top: 0;
+    margin-top: -20px;
+}
+.login h4 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    padding-top: 0;
+    margin-top: 20px;
+}
+.box-login {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+}
+.box-login input {
+    width: 120%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+.box-login input::placeholder {
+    color: white;
+}
+.btn-login .box-login input:hover {
+    background: rgba(10, 10, 10, s 0.5);
+}
+.btn-login {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid white;
+    width: 92.5%;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.btn-login:hover {
+    background: rgba(12, 30, 15, 0.5);
+}
+.bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.bottom a:hover {
+    text-decoration: underline;
+}
