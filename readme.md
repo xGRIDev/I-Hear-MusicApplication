@@ -1,3 +1,17 @@
+# Software Testing
+
+Dosen Penguji  <h3> Sufiatul Martyana, M.Kom </h3>
+
+## Participant
+
+* Heru Purnama <img src="public/rtx/img/profil.jpg" width="10%">
+
+* Wita Setianingsih <img src="public/rtx/img/wita.jpg" width="10%">
+
+* Zufar Mahasin Naufal <img src="public/rtx/img/zufar.jpg" width="10%">
+
+
+
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" width="200"></p>
 
 <p align="center">
@@ -26,11 +40,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
 ## Security Vulnerabilities
 
