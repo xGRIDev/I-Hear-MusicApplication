@@ -30,7 +30,7 @@ php artisan serve
 
 ## Preview Project
 
-
+<center><img src="2020-11-16 (4).png"></center>
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" width="200"></p>
 
