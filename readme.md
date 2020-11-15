@@ -10,6 +10,22 @@ Dosen Penguji  <h3> Sufiatul Martyana, M.Kom </h3>
 
 * Zufar Mahasin Naufal <img src="public/rtx/img/zufar.jpg" width="10%">
 
+## Instalation.
+
+* Download software 
+<strong>Composer</strong>   (https://getcomposer.org/download/).
+* Clone repo / Download repo. 
+* Ekstrak repo, kemudian simpan pada folder direktori htdocs kalian. 
+* buat file konfigurasi <strong>.env</strong>, copy paste saja pada <strong>.env.example</strong> 
+* buka CLI, lalu ketik perintah untuk me-migrate database 
+```sh
+php artisan migrate
+```
+
+* Running program dengan ketik perintah pada CLI :
+```sh
+php artisan serve
+```
 
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" width="200"></p>
