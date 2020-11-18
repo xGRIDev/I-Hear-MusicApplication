@@ -4,11 +4,11 @@ Dosen Penguji  <h3> Sufiatul Martyana, M.Kom </h3>
 
 ## Participant
 
-* Heru Purnama <img src="public/rtx/img/profil.jpg" width="10%">
+* <img src="public/rtx/img/profil.jpg" width="10%"> Heru Purnama / 065118168
 
-* Wita Setianingsih <img src="public/rtx/img/wita.jpg" width="10%">
+* <img src="public/rtx/img/wita.jpg" width="10%"> Wita Setianingsih / 065118134
 
-* Zufar Mahasin Naufal <img src="public/rtx/img/zufar.jpg" width="10%">
+* <img src="public/rtx/img/zufar.jpg" width="10%"> Zufar Mahasin Naufal / 065118167
 
 ## Instalation.
 
