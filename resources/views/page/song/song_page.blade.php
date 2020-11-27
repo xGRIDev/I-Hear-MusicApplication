@@ -1,7 +1,7 @@
 <div id="songs" class="px-2 songs container-fluid">
     <h1 class="list-title px-2 pt-2 w-100">Songs</h1>
     <br>
-    <div class="row list-songs">
+    <div class="row list-songs" style="cursor:pointer;">
         <table class="table table-hover tab-nowrap col-12">
             <thead>
             <tr class="col-12">

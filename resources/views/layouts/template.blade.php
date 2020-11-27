@@ -45,6 +45,12 @@
                                      document.getElementById('logout-form').submit();">logout</a>
              </button>
             </li>
+            <li>
+            <button class="custom-btn btn-14">
+            
+                <a href="{{ url('song/index')}}">UpdateTrack</a>
+             </button>
+            </li>
         </ul>
         <li>
 

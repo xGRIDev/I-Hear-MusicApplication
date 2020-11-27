@@ -1,3 +1,10 @@
+<div class="row row-cols-1 row-cols-md-2"><div class="card bg-dark text-white">
+  <img src="{{ $album->album_cover}}" class="card-img" alt="...">
+  <div class="card-img-overlay">
+    <h5 class="card-title">{{ $album->title }}</h5>
+  </div>
+</div>
+
 <!-- sample album-info Page -->
 <div id="album-info" class="px-2">
     <!-- Album's Title -->

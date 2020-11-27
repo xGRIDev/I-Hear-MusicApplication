@@ -31,7 +31,7 @@ class Album_ctrl extends Controller
     public function store(AlbumRequest $request)
     {
         Album::create($request->all());
-        return redirect()->route(album.index)->with('success', 'Album succesfully added.');
+        return redirect()->route('album.index')->with('success', 'Album succesfully added.');
     }
 
     public function show(Album $album)

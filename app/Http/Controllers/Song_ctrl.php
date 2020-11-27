@@ -39,9 +39,24 @@ class Song_ctrl extends Controller
         //
     }
 
-    public function edit(Song $song)
+    public function edit(Request $request)
     {
-        dd($song);
+        //dd($song);
+        $songs = Song::where('id', Auth::user()->title)->first();
+        $songs = Song::find($request->id);
+        $songs = Song::all();
+        $albums = Album::all();
+        $artists = Artist::all();
+        $songs->title = $request->title;
+        $songs->artist = $request->artist;
+        $songs->album = $request->album;
+        $songs->album_cover = $request->album_cover;
+        
+        
+        //$song->count++;
+        return view('crud.song.edit', compact('songs', 'albums', 'artists'));
+        $songs->update();
+        
     }
 
     public function update(Request $request, Song $song)

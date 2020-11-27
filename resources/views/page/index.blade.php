@@ -9,16 +9,19 @@
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
-             <button class="custom-btn btn-14">
+    
+    <button class="custom-btn btn-14">
             <a href="{{ url('user/profile') }}">My Profile</a></button>
-            <img class="rounded-circle" src="/storage/avatars/{{ $users->avatar }}" style="width:80px; height:80px;" alt="me"/>
+            <img class="rounded-circle" src="/storage/avatars/{{ $users->avatar }}" style="width:80px; height:65px;" alt="me"/>
+   
             <div class="jumbotron mt-5" style="background-image: url('../rtx/img/bc.jpg'); background-size:cover;">
-                <h1 class="display-4">Hello, world!</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <h1 class="display-4">{{ config('app.name')}}</h1>
+                    <p class="lead">Always Make Your Day Is Well.</p>
                         <hr class="my-4">
-                     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                     <p>More Info About This App, Click button on button below</p>
+                <a class="btn btn-primary btn-lg" href="{{ url('about') }}" role="button">Learn more</a>
             </div>
+         
             
           
 
@@ -52,6 +55,7 @@
 
             <!-- artists artist -->
             {{--@include('page.artist_page')--}}
+            
             <!-- end of artists artist -->
             {{--@include('user.template')--}}
             

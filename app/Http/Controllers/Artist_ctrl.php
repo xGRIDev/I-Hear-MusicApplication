@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Artist;
+use App\Album;
 use App\Http\Requests\ArtistRequest;
 use PhpParser\Node\Stmt\Return_;
 

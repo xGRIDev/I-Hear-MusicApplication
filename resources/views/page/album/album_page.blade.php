@@ -17,7 +17,7 @@
                         <p>{{ $album->title }}</p>
                     </a>
                     <a href="#" class="artist">
-                        <p>{{ $album->artist->career_name }}</p>
+                        <p></p>
                     </a>
                 </div>
                 <input type="hidden" value="{{ $album->id }}">

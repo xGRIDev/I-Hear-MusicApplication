@@ -27,7 +27,8 @@
     <aside class="col-md-3 col-lg-2 col-6 col-sm-4 h-100">
         <div id="bread" class="bread pt-3">Admin</div>
         <ul class="menu pt-0">
-
+        <li><a id="menu-artists" class="row align-items-center" href="{{ route('page.index') }}"><i class="material-icons">explore</i>Home</a>
+            </li>
             <li><a id="menu-songs" class="row align-items-center" href="{{ route('song.index') }}"><i class="material-icons">music_note</i>Songs</a>
             </li>
             <li><a id="menu-albums" class="row align-items-center" href="{{ route('album.index') }}"><i class="material-icons">library_music

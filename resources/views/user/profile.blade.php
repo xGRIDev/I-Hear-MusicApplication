@@ -26,6 +26,7 @@
                     <th scope="col">Name</th>
                     <th scope="col">Your Email </th>
                     <th scope="col">Address</th>
+                    <th scope="col">Join This App</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -34,6 +35,7 @@
                     <td>{{ $users->name}}</td>
                     <td>{{ $users->email }}</td>
                     <td>{{ $users->address }}</td>
+                    <td>{{ $users->created_at}}</td>
                     </tr>
                 </tbody>
                 </table>
@@ -49,7 +51,7 @@
                            
                             <!-- badge -->
                             <div class="rank-label-container">
-                                <span class="label label-default rank-label">{{$users->name}}</span>
+                                <span class="label label-default rank-label"></span>
                             </div>
                         </div>
                     </div>
