@@ -39,7 +39,7 @@
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label class="mb-2" for="career_name">Career Name: </label>
+                                    <label class="mb-2" for="career_name">Name Musician : </label>
                                     <input name="career_name" type="text" class="form-control" id="career_name" placeholder="Career Name">
                                 </div>
                                 

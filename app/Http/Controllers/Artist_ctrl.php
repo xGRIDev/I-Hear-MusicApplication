@@ -7,6 +7,7 @@ use App\Artist;
 use App\Album;
 use App\Http\Requests\ArtistRequest;
 use PhpParser\Node\Stmt\Return_;
+use Auth;
 
 class Artist_ctrl extends Controller
 {
@@ -17,7 +18,8 @@ class Artist_ctrl extends Controller
     public function index()
     {
         $artist = Artist::all();
-        return view('crud.artist.index', compact('artist'));
+        $albums = Album::all();
+        return view('crud.artist.index', compact('artist', 'albums'));
     }
 
     public function create()
@@ -39,21 +41,33 @@ class Artist_ctrl extends Controller
         //
     }
 
-    public function edit(Artist $artist)
+    public function edit(Request $requests, Artist $artists)
     {
-        return view('crud.artist.edit');
+        $artists = Artist::where('id', Auth::user()->id)->first();
+        //$artist->first_name = $requests->first_name;
+        //$artist->career_name = $requests->career_name;
+        //$artists->update($requests->all());
+        $request['image'] = $requests->image_url;
+        return view('crud.artist.edit', compact('artists'));
     }
 
     public function update(Request $request, Artist $artist)
     {
-        $request['image'] = $request->image_url;
-        unset($request['image_url']);
+        
         $artist->update($request->all());
+        $request['image'] = $request->image_url;
+        $artist->first_name = $request->first_name;
+        $artist->career_name = $request->career_name;
+        $artist->biography = $request->biography;
+        //$artist->update($request->all());
+        unset($request['image_url']);
+        return view('crud.artist.edit', compact('artist'));
         return redirect()->route('artist.index')->with('success', 'Category was successfully updated.');
     }
 
     public function destroy(Artist $artist)
     {
         $artist->delete();
+        return redirect()->route('artist.index');
     }
 }

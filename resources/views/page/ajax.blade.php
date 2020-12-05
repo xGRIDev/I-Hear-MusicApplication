@@ -80,7 +80,7 @@
                 }
             });
             $.ajax({
-                url: "{{ url('/explore') }}",
+                url: "{{ url('/explore/all') }}",
                 data: {
                     // id: $(this).attr('id')
                 },

@@ -79,8 +79,9 @@ class Page_ctrl extends Controller
         return response($views);
     }
     function getArtist(Request $request) {
+        $albums = Album::all();
         $artist = Artist::find($request->id);
-        $views = view('page.artist.sample_artist_page', compact('artist'))->render();
+        $views = view('page.artist.sample_artist_page', compact('artist','albums'))->render();
         return response($views);
     }
 

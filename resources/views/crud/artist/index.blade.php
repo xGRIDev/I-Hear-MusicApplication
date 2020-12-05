@@ -9,7 +9,7 @@
 
                 <div class="row">
                     <h1><b>Artist</b></h1>
-                    <a class="btn btn-primary my-2 mx-3" href="{{ route('artist.create') }}">Add</a>
+                    <a class="btn btn-primary my-2 mx-5" href="{{ route('artist.create') }}">Add</a>
                 </div>
 
                 <ul style="overflow: scroll;" class="track-list mx-0 row">
@@ -20,7 +20,7 @@
                                 <span style='background-image: url("{{ $artist->image }}");'></span>
                             </div>
                             <div class="info">
-                                <a href="" class="title">
+                                <a href="{{ url('crud/artist/edit')}}" class="title">
                                     <p>{{ $artist->career_name }}</p>
                                 </a>
                             </div>

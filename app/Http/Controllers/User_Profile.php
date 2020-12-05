@@ -35,7 +35,7 @@ class User_Profile extends Controller
         $users->name = $requests->name;
         $users->email = $requests->email;
         $users->address = $requests->address;
-        $users->created_at = $requests->created_at;
+        $users->timestamps = $requests->timestamps;
         $avatarName = $users->id.'_avatar'.time().'.'.request()->avatar->getClientOriginalExtension();
         $requests->avatar->storeAs('avatars', $avatarName);
         $users->avatar = $avatarName;

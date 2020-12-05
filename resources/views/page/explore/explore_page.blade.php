@@ -1,6 +1,7 @@
+
 <div id="explore" class="container-fluid">
     <!-- weekly chart -->
-    <div id="weekly-chart" class="px-2">
+    <div id="weekly-chart" class="px-2" style="cursor:pointer;">
         <h1 class="list-title px-2 py-2 w-100">Weekly Charts</h1>
         <div class="row list-songs">
             <table class="table table-hover tab-nowrap col-12">

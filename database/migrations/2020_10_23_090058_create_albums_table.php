@@ -17,7 +17,8 @@ class CreateAlbumsTable extends Migration
             $table->bigIncrements('id');
             $table->string('title');
             $table->string('album_cover');
-            $table->text('description');
+            $table->string('label');
+            $table->text('release_date');
             $table->timestamps();
         });
     }

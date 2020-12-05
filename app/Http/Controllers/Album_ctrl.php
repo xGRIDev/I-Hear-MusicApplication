@@ -15,10 +15,11 @@ class Album_ctrl extends Controller
     public function __construct(){
         $this->middleware(['auth', 'verified']);
     }
-    public function index()
+    public function index(Request $request)
     {
         $albums = Album::all();
         $artists = Artist::all();
+        $artists->artist = $request->artist;
         return view('crud.album.index', compact('albums', 'artists'));
     }
 

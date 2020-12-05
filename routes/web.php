@@ -36,11 +36,15 @@ Route::get('/page/index', 'Page_ctrl@index')->name('users');
 
 Route::get('/crud/artist/index', 'Artist_ctrl@index')->name('artist');
 
+Route::get('/crud/artist/edit', 'Artist_ctrl@update');
+
+Route::post('/crud/artist/edit/{id}', 'Artist_ctrl@update');
+
 //Route::post('');
 
 
-//Route::get('/page/explore/explore_page', 'Page_ctrl@explore');
-
+Route::get('/page/explore/explore_page', 'Page_ctrl@explore');
+Route::get('/explore/all', 'Page_ctrl@explore');
 Route::get('/page/play', 'Page_ctrl@play')->name('page.play');
 
 //Song
