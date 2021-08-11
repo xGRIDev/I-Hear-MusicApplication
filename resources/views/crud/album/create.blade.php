@@ -47,12 +47,6 @@
                                 <input name="album_cover" type="text" class="form-control" id="album_cover" placeholder="Album Cover URL">
                             </div>
 
-                            <div class="form-row">
-                                <div class="form-group col-12">
-                                    <label class="mb-2" for="description">Description: </label>
-                                    <textarea rows="4" name="description" type="text" class="form-control" id="description" placeholder="Description"></textarea>
-                                </div>
-                            </div>
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary">Create</button>
                             </div>

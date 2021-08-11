@@ -42,11 +42,6 @@
                                     <label class="mb-2" for="career_name">Name Musician : </label>
                                     <input name="career_name" type="text" class="form-control" id="career_name" placeholder="Career Name">
                                 </div>
-                                
-                                <div class="custom-file mb-3">
-                                    <input type="file" class="custom-file-input" id="image_url" name="image_url">
-                                      <label class="custom-file-label" for="customFile">Choose file</label>
-                                  </div>
                             </div>
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary">Create</button>

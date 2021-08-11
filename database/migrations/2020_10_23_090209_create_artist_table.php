@@ -18,8 +18,8 @@ class CreateArtistTable extends Migration
             $table->string('career_name');
             $table->string('first_name');
             $table->string('last_name');
-            $table->string('image');
-            $table->text('biography');
+            //$table->string('image');
+            //$table->text('biography');
             $table->timestamps();
         });
     }

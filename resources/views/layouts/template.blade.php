@@ -83,7 +83,6 @@
     <nav id="nav-top" class="navbar col-12 nav-top">
         
         <div id="search" class="offset-lg-2 offset-md-3 col-12 col-lg-10 col-md-9">
-            <input id="search-input" type="text" placeholder="Search.."> 
             <h1 id="title" style="margin-top: -30px;" class="text-center app-title">
             
 

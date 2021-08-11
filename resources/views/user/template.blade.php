@@ -29,8 +29,6 @@
         <ul class="menu pt-0">
             <li><a id="menu-songs" class="row align-items-center" href="{{ route('page.index') }}"><i class="material-icons">explore</i>Home</a>
             </li>
-            <li><a href="#"><i class="">Change Password</i></a></li>
-            
         </ul>
     </aside>
     <!-- end of sidebar -->
@@ -38,8 +36,8 @@
     <!-- top navbar -->
     <nav id="nav-top" class="navbar col-12 nav-top">
         
-        <div id="search" class="offset-lg-2 offset-md-3 col-12 col-lg-10 col-md-9">
-            <!-- <input id="search-input" type="text" placeholder="Search.."> -->
+        <!--<div id="search" class="offset-lg-2 offset-md-3 col-12 col-lg-10 col-md-9">
+             <input id="search-input" type="text" placeholder="Search.."> -->
             <h1 id="title" style="margin-top: -15px;" class="text-center app-title">{{ config('app.name')}}</h1>
         </div>
     </nav>

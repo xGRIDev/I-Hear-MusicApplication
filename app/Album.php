@@ -9,7 +9,7 @@ class Album extends Model
     //
     protected $fillable=
     [
-        'title', 'artist_id', 'album_cover', 'description'
+        'title', 'artist_id', 'album_cover'
     ];
 
     public function songs()

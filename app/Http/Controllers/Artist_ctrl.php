@@ -28,6 +28,12 @@ class Artist_ctrl extends Controller
         return view('crud.artist.create');
     }
 
+    public function ArtistFormed()
+    {
+        $artist = Artist::all();
+        return view('crud.artist.formedDetail');
+    }
+
     public function store(ArtistRequest $request)
     {
         $request['image'] = $request->image_url;

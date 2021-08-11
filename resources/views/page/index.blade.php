@@ -5,10 +5,6 @@
     <div class="app">
         <div id="content" style="overflow: auto; margin-bottom: 75px; padding-bottom: 75px;"
              class="content p-3 col-lg-10 offset-lg-2 col-md-9 offset-md-3 col-12 p-0">
-             <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
     
     <button class="custom-btn btn-14">
             <a href="{{ url('user/profile') }}">My Profile</a></button>

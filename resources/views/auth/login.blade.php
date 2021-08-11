@@ -36,8 +36,7 @@
 <button type="submit" class="btn-login">{{ __('Login') }}</button>
 </form>
 <div class="bottom">
-  <a href="{{ route('register')}}">Register</a>
-  <a href="#">Forgot Password</a>
+  <a href="{{ route('register') }}">Register</a>
 </div>
 </div>
 <script src="{{ asset('../rtx/js/login.js')}}"></script>

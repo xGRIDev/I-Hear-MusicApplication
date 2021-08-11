@@ -18,6 +18,13 @@
                     @endif
                 </div>
                 <center><img class="rounded-image" src="" /></center>
+                <div class="jumbotron mt-5" style='background-image: url("{{ $artist->image }}");  background-size:cover;'>
+                <h1 class="display-4">{{ $artist->career_name}}</h1>
+                    <p class="lead">{{ $artist->biography}}</p>
+                        <hr class="my-4">
+                     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
                 <center class="mt-5 mb-5">Your Profile</center>
                 <table class="table table-striped">
                 <thead>

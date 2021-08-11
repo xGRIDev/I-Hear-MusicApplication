@@ -112,9 +112,7 @@
     </a>
     <ul>
       <li><a class="btn-floating red" href="{{ url('about') }}"><i class="material-icons">info</i></a></li>
-      <li><a class="btn-floating yellow darken-1"><i class="material-icons">create</i></a></li>
       <li><a class="btn-floating green" href="{{ url('login')}}"><i class="material-icons">exit_to_app</i></a></li>
-      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li> 
     </ul>
   </div> 
         
