@@ -25,10 +25,10 @@ class SongRequest extends FormRequest
     {
         return [
             //
-            'title' = 'required';
-            'url' = 'required'
-            'album_id' = 'required';
-            'artist_id' = 'required';
+            'title' => 'required',
+            'url' => 'required',
+            'album_id' => 'required',
+            'artist_id' =>'required',
         ];
     }
 }
